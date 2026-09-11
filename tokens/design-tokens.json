@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "project": "Avito ПоДелу",
+    "version": "1.0",
+    "source": "20 raster references received 2026-09-11",
+    "note": "Reference PNGs are 1920x1081; production canvas is 1920x1080"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": "16:9",
+    "safeAreaPx": {
+      "left": 90,
+      "right": 90,
+      "top": 56,
+      "bottom": 72
+    }
+  },
+  "grid": {
+    "columns": 12,
+    "gutterPx": 20,
+    "baseUnitPx": 8,
+    "commonSpacingPx": [16, 20, 24, 32, 40, 48, 64, 80],
+    "commonSplits": ["4/8", "5/7", "6/6", "3/3/3/3"],
+    "threeColumnReferencePx": {
+      "x": [90, 678, 1265],
+      "widthApprox": 568
+    }
+  },
+  "colors": {
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "lightCanvas": "#EEEEEE",
+    "deepGreen": "#003914",
+    "brightGreen": "#04E061",
+    "cyan": "#00AAFF",
+    "mutedGray": "#858585",
+    "mutedGrayLight": "#9D9D9D",
+    "violet": "#9659EA",
+    "greenGradient": {
+      "from": "#01461D",
+      "to": "#017A33",
+      "direction": "left-to-right"
+    },
+    "greenPanelGradient": {
+      "from": "#003914",
+      "to": "#01843A"
+    },
+    "areaChart": {
+      "line": "#00AAFF",
+      "fillTop": "#41BFFF",
+      "fillBottom": "#B2E5FF"
+    }
+  },
+  "typography": {
+    "primary": "Avito Sans",
+    "fallbacks": ["Arial", "Helvetica Neue", "Inter", "sans-serif"],
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "sizesPx": {
+      "service": [18, 22],
+      "source": [14, 18],
+      "cardBody": [22, 28],
+      "body": [30, 38],
+      "metricLabel": [26, 34],
+      "cardTitle": [36, 48],
+      "caseSubtitle": [42, 52],
+      "titleCompact": [48, 60],
+      "title": [60, 76],
+      "titleHero": [72, 88],
+      "metric": [80, 132]
+    },
+    "lineHeight": {
+      "title": [0.96, 1.06],
+      "body": [1.08, 1.2],
+      "cardBody": [1.08, 1.18]
+    }
+  },
+  "cards": {
+    "radiusPx": [28, 36],
+    "nestedRadiusPx": [24, 32],
+    "paddingPx": [28, 40],
+    "largePaddingPx": 48,
+    "border": "none",
+    "shadow": "none or imperceptible"
+  },
+  "chips": {
+    "heightPx": [38, 48],
+    "radius": "pill",
+    "paddingHorizontalPx": [14, 20]
+  },
+  "underline": {
+    "color": "#04E061",
+    "thicknessPx": [8, 12],
+    "style": "single slightly irregular brush stroke",
+    "maxPerSlide": 1
+  },
+  "imageRules": {
+    "mainVisualPerSlide": 1,
+    "preferredTypes": ["3D cutout", "smartphone UI mockup", "rounded portrait", "single chart"],
+    "allowCropAtCardEdge": true,
+    "allowCropAtCanvasEdge": true,
+    "allowTextOverlap": false
+  }
+}
