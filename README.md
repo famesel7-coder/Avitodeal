@@ -9,8 +9,9 @@
 3. Брать размеры и цвета из `tokens/design-tokens.json`.
 4. Выбрать композицию по `layouts/slide-patterns.md`.
 5. Проверить текст по `content/editorial-style.md`.
-6. Для генерации слайда использовать `prompts/slide-agent.md`.
-7. Сверить результат с подходящими изображениями в `references/`.
+6. Сверить формулировки референсов по `content/reference-copy.md`.
+7. Для генерации слайда использовать `prompts/slide-agent.md`.
+8. Сверить результат с подходящими изображениями в `references/`.
 
 ## Что определяет стиль
 
@@ -35,6 +36,7 @@
 - `tokens/design-tokens.json` — палитра, сетка, размеры, типографика;
 - `layouts/slide-patterns.md` — библиотека композиций и карта 20 референсов;
 - `content/editorial-style.md` — правила заголовков, подписей и чисел;
+- `content/reference-copy.md` — точная текстовая база 20 референсов;
 - `prompts/slide-agent.md` — производственный промпт для новых слайдов;
 - `references/*.jpg` — оптимизированные визуальные эталоны;
 - `references/contact-sheet.jpg` — обзор всей системы.
