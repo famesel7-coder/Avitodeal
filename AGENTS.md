@@ -8,6 +8,7 @@
 - `tokens/design-tokens.json`
 - `layouts/slide-patterns.md`
 - `content/editorial-style.md`
+- `content/reference-copy.md`
 
 ## Главные правила
 
